@@ -1,0 +1,17 @@
+name: PR assignment
+
+#on:
+  #pull_request:
+    #branches: [ "main" ]
+on:
+  issues:
+      types: [opened]
+jobs:
+    auto-assign:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Auto-assign issues'
+              uses: pozil/auto-assign-issue@v1.11.0
+              with:
+                  assignees: rkmaurya27
+                  numOfAssignee: 1
