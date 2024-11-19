@@ -11,7 +11,7 @@
 	<groupId>com.org</groupId>
 	<artifactId>OTExecutor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>OTExecutor</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
