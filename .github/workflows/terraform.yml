@@ -57,7 +57,7 @@ jobs:
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
-      uses: actions/checkout@4.2.2
+      uses: actions/checkout@4
                 
     - name: Login to Azure with Service Principal
       uses: Azure/login@v2.2.0
