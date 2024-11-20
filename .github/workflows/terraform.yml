@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   
 env:
-  STORAGE_ACCOUNT_NAME: storagetfstate013
+  STORAGE_ACCOUNT_NAME: storagetfstate013rkm
   RESOURCE_GROUP_NAME: rg-terraform-state
   CONTAINER_NAME: tfstate
   BLOB_NAME: terraform.tfstate
