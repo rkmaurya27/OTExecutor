@@ -1,5 +1,5 @@
 resource_group_name     = "rg-terraform-web-sql-dbnew"
-resource_group_location = "eastus2"
+resource_group_location = "westeurope"
 app_service_plan_name   = "appserviceplan-web-21-rkmnew"
 app_service_name        = "terraform-web-021-rkmnew"
 sql_server_name         = "terraform-sqlserver-021-rkmnew"
